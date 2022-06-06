@@ -4,7 +4,7 @@ body {
 }
 
 html {
-  background-color: #d6adee;
+  background-color:  #040507;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto', sans-serif;
@@ -83,7 +83,29 @@ section {
   display: flex;
 }
 
+.price {
+  width: 450px;
+}
+
+.slider {
+  width: 100%;
+}
+
+.bg-img {
+  width: 100%;
+}
+
 .name {
   color: #d8c9a9;
   font-size: 16px;
+  padding-left: 10px;
 }
+
+.buying,
+.selling {
+  color: white;
+  font-size: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+

@@ -1,8 +1,11 @@
+import React, {Component} from "react";
 import Navbar from "./component/Navbar";
 import PriceList from "./component/PriceList";
 
+class App extends Component {
 
-function App() {
+
+  render(){
   return (
     <div className="App">
       <Navbar/>
@@ -10,5 +13,6 @@ function App() {
     </div>
   );
 }
+}
 
-export default App;
+export default App
